@@ -38,13 +38,13 @@ namespace SwitchCoinDivider
             {
                 sum = sum - centAmmount * five;
                 centAmmount = sum / two;
-                Console.WriteLine("20 sendised: " + centAmmount);
+                Console.WriteLine("2 sendised: " + centAmmount);
             }
             if (sum >= one)
             {
                 sum = sum - centAmmount * two;
                 centAmmount = sum / one;
-                Console.WriteLine("20 sendised: " + centAmmount);
+                Console.WriteLine("1 sendised: " + centAmmount);
             }
             else
             {
